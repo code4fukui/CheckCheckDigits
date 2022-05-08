@@ -4,7 +4,7 @@ to check check digit algorithms (どのチェックデジットアルゴリズ�
 
 |algorithm|born|pros|cons|examples|
 |-|-|-|-|-|
-[Damm](https://github.com/code4fukui/Damm)|2024|誤りにとても強い|||
+[Damm](https://github.com/code4fukui/Damm)|2004|誤りにとても強い|||
 |[Verhoeff](https://github.com/code4fukui/Verhoeff)|1969|誤りに強い|||
 |[Luhn](https://github.com/code4fukui/Luhn)|1954||隣り合う数字の入れ替え検出不可|クレジットカード|
 |[Modulus10](https://github.com/code4fukui/Modulus10)|?|||バーコード|
