@@ -2,7 +2,7 @@
 
 to check check digit algorithms (どのチェックデジットアルゴリズムが使われているかまとめてチェック)
 
-|algorith|born|pros|cons|examples|
+|algorithm|born|pros|cons|examples|
 |-|-|-|-|-|
 [Damm](https://github.com/code4fukui/Damm)|2024|誤りにとても強い|||
 |[Verhoeff](https://github.com/code4fukui/Verhoeff)|1969|誤りに強い|||
