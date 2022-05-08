@@ -11,6 +11,9 @@ to check check digit algorithms (どのチェックデジットアルゴリズ�
 |[Modulus11](https://github.com/code4fukui/Modulus11)|?||1の出現確率が他の倍|マイナンバー、運転免許証、全国地方公共団体コード|
 |[Modulus9](https://github.com/code4fukui/Modulus9)|?|0を使わない|0と9の誤り検出不可|法人番号|
 
+- [第４０４号コラム「マイナンバーのチェックデジットについて」 | コラム | デジタル・フォレンジック研究会](https://digitalforensic.jp/2016/03/14/column404/)
+- [第４２２号コラム「法人番号の検査用符号の設計ミスと、公共で使われるチェックデジット」 | コラム | デジタル・フォレンジック研究会](https://digitalforensic.jp/2016/07/25/column422/)
+
 ## app
 
 - [CheckCheckDigits](https://code4fukui.github.io/CheckCheckDigits/)
