@@ -1,6 +1,6 @@
 # CheckCheckDigits
 
-to check check digit algorithms
+to check check digit algorithms (どのチェックデジットアルゴリズムが使われているかまとめてチェック)
 
 - [Damm](https://github.com/code4fukui/Damm)
 - [Verhoeff](https://github.com/code4fukui/Verhoeff)
