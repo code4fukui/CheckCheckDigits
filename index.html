@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+
+</head><body>
+
+<h1>CheckCheckDigits</h1>
+
+<input id=num placeholder="code"><br>
+<br>
+<div id=chks></div>
+<br>
+
+<div class=credit>
+<a href=https://github.com/code4fukui/checkcheckdigits/>src on GitHub</a>
+</div>
+
+<script type="module">
+import { checkCheckDigits } from "./checkCheckDigits.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/\D/g, "");
+  const res = checkCheckDigits(s);
+  for (const name in res) {
+    const c = (() => {
+      const a = chks.querySelector("#" + name);
+      if (a) {
+        return a;
+      }
+      const span = document.createElement("a");
+      span.href = `https://github.com/code4fukui/${name}/`;
+      span.textContent = name;
+      span.id = name;
+      chks.appendChild(span);
+      return span;
+    })();
+    if (res[name]) {
+      c.classList.add("hit");
+    } else {
+      c.classList.remove("hit");
+    }
+  }
+};
+num.onchange();
+</script>
+
+<style>
+body {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  margin: 0 0 1em;
+  background-color: #777;
+  color: white;
+  padding: .8em;
+  font-size: 200%;
+}
+input {
+  font-size: 150%;
+  width: 20em;
+  padding: .3em;
+}
+#chks a {
+  background-color: gray;
+  border: 1px solid black;
+  padding: .3em;
+  margin: .3em;
+  color: white;
+  text-decoration: none;
+}
+#chks .hit {
+  background-color: red;
+}
+.credit a {
+  color: #333 !important;
+}
+</style>
+
+</body></html>
