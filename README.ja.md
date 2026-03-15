@@ -1,6 +1,6 @@
 # CheckCheckDigits
 
-さまざまなチェックディジット（数字の検査用の付加数字）の仕組みをチェックできるツールです。
+さまざまなチェックディジット（数字の検査用の付加数字）のアルゴリズムを確認できるツールです。
 
 ## デモ
 [CheckCheckDigits](https://code4fukui.github.io/CheckCheckDigits/)

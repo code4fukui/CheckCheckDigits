@@ -1,9 +1,8 @@
 # CheckCheckDigits
 
-A tool to check various check digit algorithms.
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## Demo
-[CheckCheckDigits](https://code4fukui.github.io/CheckCheckDigits/)
+A tool to check various check digit algorithms.
 
 ## Features
 - Supports the following check digit algorithms:
