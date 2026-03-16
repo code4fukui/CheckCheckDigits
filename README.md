@@ -19,4 +19,4 @@ A tool to check various check digit algorithms.
 2. The tool will display which check digit algorithms the code is valid for
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).

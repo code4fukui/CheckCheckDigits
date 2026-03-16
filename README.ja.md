@@ -2,9 +2,6 @@
 
 さまざまなチェックディジット（数字の検査用の付加数字）のアルゴリズムを確認できるツールです。
 
-## デモ
-[CheckCheckDigits](https://code4fukui.github.io/CheckCheckDigits/)
-
 ## 機能
 - 以下のチェックディジットアルゴリズムに対応しています:
   - [Damm](https://github.com/code4fukui/Damm)
